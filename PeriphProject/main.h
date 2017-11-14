@@ -34,9 +34,12 @@
 #include <stdio.h>
 #include "stm32f4xx_dac.h"
 #include "stm32f429i_discovery.h"
+#include "stm32f429i_discovery_lcd.h"
+#include "stm32f429i_discovery_l3gd20.h"
 /* Private define ------------------------------------------------------------*/
 /* Exported functions ------------------------------------------------------- */
 void TimingDelay_Decrement(void);
+void Delay(__IO uint32_t nTime);
 
 #endif /* __MAIN_H */
 
